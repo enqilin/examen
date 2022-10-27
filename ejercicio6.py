@@ -6,7 +6,7 @@ def modificar():
   if not numero%2==0:
     lista.remove(numero)
   else:
-    numero+=numero
+    nuevo_lista=sum(lista)
     lista.insert(0,numero)
   return lista
 lista[0]==sum(lista[1:])
